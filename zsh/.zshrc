@@ -16,3 +16,9 @@ HISTSIZE=10000
 SAVEHIST=10000
 # 直前と同じコマンドは履歴に追加しない
 set hist_ignore_dups
+
+# alias
+alias vi='nvim'
+alias dc='docker compose'
+alias gpod='git pull origin develop'
+alias gsd='git switch develop'
