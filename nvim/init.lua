@@ -10,7 +10,7 @@ vim.api.nvim_create_autocmd("InsertLeave", {
 
 -- 二重引用符を表示する
 vim.api.nvim_create_autocmd("FileType", {
-	pattern = { "json", "jsonc" },
+	pattern = { "json", "jsonc", "markdown" },
 	callback = function()
 		vim.wo.conceallevel = 0
 	end,
